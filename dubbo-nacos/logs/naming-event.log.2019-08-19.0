@@ -1,8 +1,0 @@
-2019-08-19 11:19:26,297 INFO DEFAULT_GROUP@@spring-dubbo-api {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.190.197:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2019-08-19 11:19:26,300 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-dubbo-api, ips: 192.168.190.197:8081_true,
-
-2019-08-19 11:44:02,170 INFO DEFAULT_GROUP@@spring-dubbo-api {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.190.197:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
-
-2019-08-19 11:44:02,170 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@spring-dubbo-api, ips: 
-

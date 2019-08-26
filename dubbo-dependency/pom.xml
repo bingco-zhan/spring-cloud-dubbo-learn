@@ -16,6 +16,7 @@
     </parent>
 
     <modules>
+        <module>../dubbo-gateway</module>
         <module>../dubbo-service</module>
         <module>../dubbo-control</module>
     </modules>
