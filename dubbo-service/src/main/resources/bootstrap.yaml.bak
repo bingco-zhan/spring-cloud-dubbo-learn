@@ -1,0 +1,21 @@
+server:
+  port: 10801
+spring:
+  application:
+    name: dubbo-service
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${spring.cloud.nacos.config.server-addr}
+dubbo:
+  application:
+    name: ${spring.application.name}
+  scan:
+    base-packages: bcz.dubbo.cloud.service
+  protocol:
+    name: dubbo
+    port: 12002
+  registry:
+    address: nacos://${spring.cloud.nacos.config.server-addr}

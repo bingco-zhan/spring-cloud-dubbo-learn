@@ -1,0 +1,16 @@
+2019-08-19 11:19:27,301 INFO DEFAULT_GROUP@@spring-dubbo-api is changed, add it to push queue.
+
+2019-08-19 11:44:03,171 INFO DEFAULT_GROUP@@spring-dubbo-api is changed, add it to push queue.
+
+2019-08-19 11:44:03,171 INFO serviceName: DEFAULT_GROUP@@spring-dubbo-api changed, schedule push for: 192.168.190.197:63297, agent: Nacos-Java-Client:v1.0.0, key: 192.168.190.197,63297,13316033131144
+
+2019-08-19 11:44:03,171 INFO send udp packet: 192.168.190.197,63297,13316033131144
+
+2019-08-19 11:44:13,174 INFO retry to push data, key: 192.168.190.197,63297,13316033131144
+
+2019-08-19 11:44:13,174 INFO send udp packet: 192.168.190.197,63297,13316033131144
+
+2019-08-19 11:44:23,176 INFO retry to push data, key: 192.168.190.197,63297,13316033131144
+
+2019-08-19 11:44:23,176 WARN max re-push times reached, retry times 2, key: 192.168.190.197,63297,13316033131144
+

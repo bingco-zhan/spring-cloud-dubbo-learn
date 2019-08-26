@@ -1,0 +1,114 @@
+2019-08-20 11:19:28,128 INFO initializing Raft sub-system
+
+2019-08-20 11:19:28,131 INFO raft notifier started
+
+2019-08-20 11:19:28,130 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2019-08-20 11:19:28,137 INFO cache loaded, datum count: 0, current term: 0
+
+2019-08-20 11:19:28,137 INFO finish to load data from disk, cost: 7 ms.
+
+2019-08-20 11:19:28,143 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2019-08-20 11:19:27,994 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2019-08-20 11:19:28,151 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2019-08-20 11:19:28,201 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2019-08-20 11:19:30,637 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2019-08-20 11:19:37,989 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2019-08-20 11:19:37,989 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2019-08-20 11:19:37,989 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2019-08-20 11:20:02,996 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2019-08-20 11:21:07,217 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 11:40:46,080 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService
+
+2019-08-20 11:50:14,588 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 12:02:56,369 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 12:03:15,124 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:56:16,452 INFO add task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:16,453 INFO remove task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:16,453 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:16,457 INFO data removed, key=com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0, term=0
+
+2019-08-20 14:56:16,457 INFO add task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:16,457 INFO data removed, key=com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0, term=0
+
+2019-08-20 14:56:16,522 INFO remove task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:23,016 INFO add task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:56:23,016 INFO remove task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:56:23,016 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:56:23,017 INFO data removed, key=com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0:s01, term=0
+
+2019-08-20 14:56:23,017 INFO add task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:56:23,017 INFO data removed, key=com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0:s01, term=0
+
+2019-08-20 14:56:23,017 INFO remove task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:56:24,760 INFO add task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService
+
+2019-08-20 14:56:24,760 INFO remove task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService
+
+2019-08-20 14:56:24,760 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService
+
+2019-08-20 14:56:24,760 INFO data removed, key=com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService, term=0
+
+2019-08-20 14:56:24,761 INFO add task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService
+
+2019-08-20 14:56:24,761 INFO data removed, key=com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService, term=0
+
+2019-08-20 14:56:24,761 INFO remove task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:org.springframework.dubbo.inter.IService
+
+2019-08-20 14:56:26,385 INFO add task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:26,385 INFO remove task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:26,385 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:26,386 INFO data removed, key=com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0, term=0
+
+2019-08-20 14:56:26,386 INFO add task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:26,386 INFO data removed, key=com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0, term=0
+
+2019-08-20 14:56:26,386 INFO remove task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:56:49,246 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0
+
+2019-08-20 14:57:46,197 INFO add task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:57:46,198 INFO remove task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:57:46,198 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:57:46,198 INFO data removed, key=com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0:s01, term=0
+
+2019-08-20 14:57:46,199 INFO add task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 14:57:46,199 INFO data removed, key=com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0:s01, term=0
+
+2019-08-20 14:57:46,199 INFO remove task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:org.springframework.dubbo.inter.IService:1.0.0:s01
+
+2019-08-20 15:16:31,768 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@spring-dubbo-control
+
+2019-08-20 15:58:40,454 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@spring-dubbo-wageway
+
