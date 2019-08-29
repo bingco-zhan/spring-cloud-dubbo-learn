@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC
+        "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+    <!-- 一个数据库一个context -->
+    <context id="Exam" targetRuntime="MyBatis3Simple" defaultModelType="flat">
+
+        <!-- TKmybatis配置 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+        <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
+            <property name="mappers" value="tk.mybatis.mapper.common.Mapper,tk.mybatis.mapper.common.MySqlMapper"/>
+        </plugin>
+
+        <!-- 生成 JavaBean 对象重写 toString方法 -->
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
+
+        <!-- 生成 JavaBean 对象继承 Serializable 类 -->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+
+        <!-- 注释 -->
+        <commentGenerator>
+            <property name="suppressAllComments" value="true" /><!-- 是否取消注释 -->
+            <property name="suppressDate" value="true" /> <!-- 是否生成注释代时间戳 -->
+        </commentGenerator>
+
+
+        <!-- jdbc连接 -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://192.168.16.178:3306/cloud-learn" userId="root"
+                        password="root" />
+
+        <!-- 生成实体类地址 -->
+        <javaModelGenerator
+                targetPackage="bcz.dubbo.cloud.entity"
+                targetProject="src/main/java">
+            <!-- 是否针对string类型的字段在set的时候进行trim调用 -->
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!-- 生成mapxml文件 -->
+        <sqlMapGenerator
+                targetPackage="bcz.dubbo.cloud.mapper.schema"
+                targetProject="src/main/java">
+        </sqlMapGenerator>
+
+        <!-- 生成mapxml对应client，也就是接口dao -->
+        <javaClientGenerator
+                targetPackage="bcz.dubbo.cloud.mapper"
+                targetProject="src/main/java" type="XMLMAPPER">
+        </javaClientGenerator>
+
+        <table tableName="store" domainObjectName="Store">
+            <generatedKey column="id" sqlStatement="mysql"
+                          identity="true" />
+        </table>
+    </context>
+</generatorConfiguration>

@@ -1,0 +1,25 @@
+server:
+  port: 8081
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: ${spring.cloud.nacos.config.server-addr}
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lowerCaseServiceId: true
+      routes:
+      - id: baidu_route
+        uri: http://www.baidu.com
+        predicates:
+        - Path=/baidu/**
+      - id: control_route
+        uri: lb://dubbo-control
+        predicates:
+        - Path=/control/**
+        filters:
+        - StripPrefix=1

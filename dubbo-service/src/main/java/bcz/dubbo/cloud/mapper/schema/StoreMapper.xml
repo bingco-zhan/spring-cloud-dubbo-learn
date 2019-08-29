@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="bcz.dubbo.cloud.mapper.StoreMapper">
+  <resultMap id="BaseResultMap" type="bcz.dubbo.cloud.entity.Store">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="cnt" jdbcType="INTEGER" property="cnt" />
+  </resultMap>
+</mapper>
