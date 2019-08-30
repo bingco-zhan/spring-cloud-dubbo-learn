@@ -48,3 +48,17 @@
 
 2019-08-30 10:40:52,996 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-gateway
 
+2019-08-30 15:25:49,715 INFO add task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService::
+
+2019-08-30 15:25:49,718 INFO remove task com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService::
+
+2019-08-30 15:25:49,720 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService::
+
+2019-08-30 15:25:49,722 INFO data removed, key=com.alibaba.nacos.naming.domains.meta.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService::, term=0
+
+2019-08-30 15:25:49,722 INFO add task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService::
+
+2019-08-30 15:25:49,722 INFO data removed, key=com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService::, term=0
+
+2019-08-30 15:25:49,725 INFO remove task com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService::
+

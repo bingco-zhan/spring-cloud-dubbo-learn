@@ -26,3 +26,5 @@ dubbo:
     port: 12001
   registry:
     address: nacos://${spring.cloud.nacos.config.server-addr}
+  provider:
+    serialization: kryo

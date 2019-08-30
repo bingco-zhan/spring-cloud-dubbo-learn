@@ -15,3 +15,5 @@ create table store(
   `name` varchar(32),
   cnt int(12) default 0
 );
+
+insert into store(`name`, cnt) values('樱桃', 100),('凤梨', 50);
