@@ -4,22 +4,31 @@ import bcz.dubbo.cloud.api.StoreService;
 import bcz.dubbo.cloud.entity.Order;
 import bcz.dubbo.cloud.mapper.OrderMapper;
 import bcz.dubbo.cloud.utils.IBatisKit;
+import io.seata.core.context.RootContext;
+import io.seata.spring.annotation.GlobalTransactional;
+import org.apache.dubbo.common.logger.Logger;
+import org.apache.dubbo.common.logger.LoggerFactory;
 import org.apache.dubbo.config.annotation.Reference;
+import org.apache.dubbo.remoting.TimeoutException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class OrderServiceImpl implements OrderService {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(OrderService.class);
+
     @Autowired
     private OrderMapper orderMapper;
 
-    @Reference
+    @Reference(version = "1.0.0", group = "dubbo")
     private StoreService storeService;
 
     @Override
+    @GlobalTransactional(rollbackFor = TimeoutException.class)
     public String addOdr(Order order) {
-        int cnt = orderMapper.insertSelective(order);
+        LOGGER.info("Order Service ... xid: " + RootContext.getXID());
+        int cnt = orderMapper.insertUseGeneratedKeys(order);
         if (cnt <= 0) {
             return "添加订单失败";
         }

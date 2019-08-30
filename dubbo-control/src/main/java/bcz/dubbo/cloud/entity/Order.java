@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 import javax.persistence.*;
 
+@Table(name = "`order`")
 public class Order implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -13,6 +14,7 @@ public class Order implements Serializable {
 
     private String name;
 
+    @Column(name = "`count`")
     private Integer count;
 
     private BigDecimal money;
