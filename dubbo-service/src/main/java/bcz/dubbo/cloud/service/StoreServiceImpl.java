@@ -4,6 +4,7 @@ import bcz.dubbo.cloud.api.StoreService;
 import bcz.dubbo.cloud.entity.Store;
 import bcz.dubbo.cloud.mapper.StoreMapper;
 import io.seata.core.context.RootContext;
+import io.seata.spring.annotation.GlobalTransactional;
 import org.apache.dubbo.common.logger.Logger;
 import org.apache.dubbo.common.logger.LoggerFactory;
 import org.apache.dubbo.config.annotation.Service;
@@ -19,13 +20,18 @@ public class StoreServiceImpl implements StoreService {
     private StoreMapper storeMapper;
 
     @Override
+    @GlobalTransactional
     public String subStore(String goodsName, int subNumber) {
         LOGGER.info("Store Service ... xid: " + RootContext.getXID());
-        try {
-            Thread.sleep(30000);
-        } catch (InterruptedException exc1) {
-            exc1.printStackTrace();
-        }
+
+        // 上游超时熔断后是否扣除数量
+//        try {
+//            Thread.sleep(30000);
+//        } catch (InterruptedException exc1) {
+//            exc1.printStackTrace();
+//        }
+        // 异常后上游是否回滚成功
+//        int a = 10 / 0;
         Example example = new Example(Store.class);
         Example.Criteria criteria = example.createCriteria();
         criteria.andEqualTo("name", goodsName);

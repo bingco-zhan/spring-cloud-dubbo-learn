@@ -8,6 +8,6 @@ import tk.mybatis.mapper.common.MySqlMapper;
 
 public interface StoreMapper extends Mapper<Store>, MySqlMapper<Store> {
 
-    @Update("update store set cnt = #{subNumber} where name = #{goodsName}")
+    @Update("update store set cnt = (cnt - #{subNumber}) where name = #{goodsName} and (cnt - #{subNumber}) >= 0")
     int subStore(@Param("goodsName") String goodsName, @Param("subNumber") int subNumber);
 }
