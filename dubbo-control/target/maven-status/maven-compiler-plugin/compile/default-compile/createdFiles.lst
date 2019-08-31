@@ -1,6 +1,0 @@
-bcz\dubbo\cloud\BootstrapApplication.class
-bcz\dubbo\cloud\service\OrderServiceImpl.class
-bcz\dubbo\cloud\mapper\OrderMapper.class
-bcz\dubbo\cloud\control\Controller.class
-bcz\dubbo\cloud\entity\Order.class
-bcz\dubbo\cloud\service\OrderService.class
