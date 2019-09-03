@@ -1,6 +1,6 @@
 ----------------------------------------------------------------
-Fri Aug 30 10:25:26 CST 2019:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-016c-e057-814b-00000d559f28 
+Mon Sep 02 09:32:12 CST 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-016c-ef99-d73b-00000597ba48 
 on database directory F:\学习空间\Learn2\spring-cloud-dubbo-learn\dubbo-nacos\data\derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@685f4c2e 
 Loaded from jar:file:/F:/学习空间/Learn2/spring-cloud-dubbo-learn/dubbo-nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.10.1.1.jar!/
 java.vendor=Oracle Corporation

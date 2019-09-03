@@ -14,7 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("api")
 public class Controller {
 
-    @Reference(version = "1.0.0", group = "dubbo")
+    @Reference(
+            version = "1.0.0",
+            group = "dubbo",
+            check = false,
+            filter = "sentinel.dubbo.consumer.filter"
+    )
     private IService service;
 
     @Autowired

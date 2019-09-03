@@ -3,7 +3,6 @@ package bcz.dubbo.cloud.service;
 import bcz.dubbo.cloud.api.StoreService;
 import bcz.dubbo.cloud.entity.Order;
 import bcz.dubbo.cloud.mapper.OrderMapper;
-import bcz.dubbo.cloud.utils.IBatisKit;
 import io.seata.core.context.RootContext;
 import io.seata.spring.annotation.GlobalTransactional;
 import org.apache.dubbo.common.logger.Logger;
@@ -21,7 +20,7 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private OrderMapper orderMapper;
 
-    @Reference(version = "1.0.0", group = "dubbo")
+    @Reference(version = "1.0.0", group = "dubbo", check = false)
     private StoreService storeService;
 
     @Override
@@ -35,7 +34,6 @@ public class OrderServiceImpl implements OrderService {
         String errorMsg;
         if (order.getCount() != null && order.getCount() > 0
                 && (errorMsg = storeService.subStore(order.getName(), order.getCount())) != null) {
-            IBatisKit.rollback();
             return errorMsg;
         }
         return null;
