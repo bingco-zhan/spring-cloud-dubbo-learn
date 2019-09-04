@@ -1,0 +1,6 @@
+2019-09-02 09:32:14,148 INFO [dump-all-ok] dubbo-control-dev.yaml+DEFAULT_GROUP, 1567046952356, length=671, md5=b975ca7efbf516e9d5a0c2cd17bf5d56
+
+2019-09-02 09:32:14,149 INFO [dump-all-ok] dubbo-service-dev.yaml+DEFAULT_GROUP, 1567047178696, length=671, md5=b1668550c011031499b91a2c0e773a4a
+
+2019-09-02 09:32:14,150 INFO [dump-all-ok] dubbo-gateway-dev.yaml+DEFAULT_GROUP, 1567047274334, length=571, md5=fed99b508ef29af54b6f788770ee427c
+

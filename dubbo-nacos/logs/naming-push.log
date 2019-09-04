@@ -1,576 +1,476 @@
-2019-09-02 09:43:58,237 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:12,780 INFO DEFAULT_GROUP@@dubbo-gateway is changed, add it to push queue.
 
-2019-09-02 09:44:18,188 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:12,794 INFO serviceName: DEFAULT_GROUP@@dubbo-gateway changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10708838184552
 
-2019-09-02 09:44:33,379 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:12,795 INFO send udp packet: 192.168.190.197,65145,10708838184552
 
-2019-09-02 09:45:56,942 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:12,813 INFO received ack: {"type": "push-ack", "lastRefTime":"10708838184552", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 18, total push: 0
 
-2019-09-02 09:46:13,369 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:24,166 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:46:28,379 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:24,167 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65147, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65147,10720211093432
 
-2019-09-02 09:47:44,378 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:24,167 INFO send udp packet: 192.168.190.197,65147,10720211093432
 
-2019-09-02 09:48:03,372 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:24,180 INFO received ack: {"type": "push-ack", "lastRefTime":"10720211093432", "data":""} from: 192.168.190.197:, cost: 65147 ms, unacked: 13, total push: 0
 
-2019-09-02 09:48:18,382 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:24,231 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:48:37,325 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:24,232 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65147, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65147,10720275827410
 
-2019-09-02 09:48:37,421 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:02:24,232 INFO send udp packet: 192.168.190.197,65147,10720275827410
 
-2019-09-02 09:48:40,019 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
+2019-09-04 11:02:24,236 INFO received ack: {"type": "push-ack", "lastRefTime":"10720275827410", "data":""} from: 192.168.190.197:, cost: 65147 ms, unacked: 4, total push: 0
 
-2019-09-02 09:48:53,466 INFO DEFAULT_GROUP@@dubbo-gateway is changed, add it to push queue.
+2019-09-04 11:02:24,293 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
 
-2019-09-02 09:48:53,467 INFO serviceName: DEFAULT_GROUP@@dubbo-gateway changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4044659534891
+2019-09-04 11:02:38,071 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:48:53,467 INFO send udp packet: 192.168.190.197,52378,4044659534891
+2019-09-04 11:02:38,593 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:48:53,482 INFO received ack: {"type": "push-ack", "lastRefTime":"4044659534891", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 15, total push: 0
+2019-09-04 11:02:41,027 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
 
-2019-09-02 09:49:21,228 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:03:35,407 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:49:21,229 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52383, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52383,4072422735502
+2019-09-04 11:03:35,407 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10791454688146
 
-2019-09-02 09:49:21,229 INFO send udp packet: 192.168.190.197,52383,4072422735502
+2019-09-04 11:03:35,407 INFO send udp packet: 192.168.190.197,65145,10791454688146
 
-2019-09-02 09:49:21,230 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52376, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52376,4072422735502
+2019-09-04 11:03:35,412 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:49:21,230 INFO send udp packet: 192.168.190.197,52376,4072422735502
+2019-09-04 11:03:35,412 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10791459610551
 
-2019-09-02 09:49:21,241 INFO received ack: {"type": "push-ack", "lastRefTime":"4072422735502", "data":""} from: 192.168.190.197:, cost: 52376 ms, unacked: 11, total push: 1
+2019-09-04 11:03:35,412 INFO send udp packet: 192.168.190.197,65145,10791459610551
 
-2019-09-02 09:49:21,245 INFO received ack: {"type": "push-ack", "lastRefTime":"4072422735502", "data":""} from: 192.168.190.197:, cost: 52383 ms, unacked: 16, total push: 0
+2019-09-04 11:03:35,412 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
 
-2019-09-02 09:49:21,293 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:03:35,412 INFO serviceName: DEFAULT_GROUP@@dubbo-control changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10791460009242
 
-2019-09-02 09:49:21,293 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52383, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52383,4072487604064
+2019-09-04 11:03:35,412 INFO send udp packet: 192.168.190.197,65145,10791460009242
 
-2019-09-02 09:49:21,293 INFO send udp packet: 192.168.190.197,52383,4072487604064
+2019-09-04 11:03:35,444 INFO received ack: {"type": "push-ack", "lastRefTime":"10791454688146", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 37, total push: 2
 
-2019-09-02 09:49:21,294 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52376, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52376,4072487604064
+2019-09-04 11:03:35,444 INFO received ack: {"type": "push-ack", "lastRefTime":"10791459610551", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 32, total push: 1
 
-2019-09-02 09:49:21,294 INFO send udp packet: 192.168.190.197,52376,4072487604064
+2019-09-04 11:03:35,444 INFO received ack: {"type": "push-ack", "lastRefTime":"10791460009242", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 32, total push: 0
 
-2019-09-02 09:49:21,295 INFO received ack: {"type": "push-ack", "lastRefTime":"4072487604064", "data":""} from: 192.168.190.197:, cost: 52383 ms, unacked: 2, total push: 1
+2019-09-04 11:03:45,520 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:49:21,296 INFO received ack: {"type": "push-ack", "lastRefTime":"4072487604064", "data":""} from: 192.168.190.197:, cost: 52376 ms, unacked: 2, total push: 0
+2019-09-04 11:03:45,520 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10801567913296
 
-2019-09-02 09:49:21,391 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
+2019-09-04 11:03:45,520 INFO send udp packet: 192.168.190.197,65145,10801567913296
 
-2019-09-02 09:54:15,496 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:03:45,523 INFO received ack: {"type": "push-ack", "lastRefTime":"10801567913296", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 3, total push: 0
 
-2019-09-02 09:54:15,497 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52383, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52383,4366654555599
+2019-09-04 11:03:45,798 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:54:15,497 INFO send udp packet: 192.168.190.197,52383,4366654555599
+2019-09-04 11:03:45,798 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10801845975778
 
-2019-09-02 09:54:15,497 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4366654555599
+2019-09-04 11:03:45,798 INFO send udp packet: 192.168.190.197,65145,10801845975778
 
-2019-09-02 09:54:15,497 INFO send udp packet: 192.168.190.197,52378,4366654555599
+2019-09-04 11:03:45,800 INFO received ack: {"type": "push-ack", "lastRefTime":"10801845975778", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 2, total push: 0
 
-2019-09-02 09:54:15,498 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52376, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52376,4366654555599
+2019-09-04 11:03:48,373 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
 
-2019-09-02 09:54:15,498 INFO send udp packet: 192.168.190.197,52376,4366654555599
+2019-09-04 11:03:48,373 INFO serviceName: DEFAULT_GROUP@@dubbo-control changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10804421284526
 
-2019-09-02 09:54:15,498 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:03:48,374 INFO send udp packet: 192.168.190.197,65145,10804421284526
 
-2019-09-02 09:54:15,499 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4366657156580
+2019-09-04 11:03:48,383 INFO received ack: {"type": "push-ack", "lastRefTime":"10804421284526", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 9, total push: 0
 
-2019-09-02 09:54:15,499 INFO send udp packet: 192.168.190.197,52378,4366657156580
+2019-09-04 11:04:51,696 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:54:15,500 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52383, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52383,4366657156580
+2019-09-04 11:04:51,696 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65147, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65147,10867745627889
 
-2019-09-02 09:54:15,500 INFO send udp packet: 192.168.190.197,52383,4366657156580
+2019-09-04 11:04:51,696 INFO send udp packet: 192.168.190.197,65147,10867745627889
 
-2019-09-02 09:54:15,500 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52376, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52376,4366657156580
+2019-09-04 11:04:51,696 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10867745627889
 
-2019-09-02 09:54:15,500 INFO send udp packet: 192.168.190.197,52376,4366657156580
+2019-09-04 11:04:51,696 INFO send udp packet: 192.168.190.197,65145,10867745627889
 
-2019-09-02 09:54:15,502 INFO received ack: {"type": "push-ack", "lastRefTime":"4366654555599", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 5, total push: 5
+2019-09-04 11:04:51,697 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,10867745627889
 
-2019-09-02 09:54:15,502 INFO received ack: {"type": "push-ack", "lastRefTime":"4366654555599", "data":""} from: 192.168.190.197:, cost: 52383 ms, unacked: 5, total push: 4
+2019-09-04 11:04:51,697 INFO send udp packet: 192.168.190.197,50487,10867745627889
 
-2019-09-02 09:54:15,502 INFO received ack: {"type": "push-ack", "lastRefTime":"4366654555599", "data":""} from: 192.168.190.197:, cost: 52376 ms, unacked: 4, total push: 3
+2019-09-04 11:04:51,699 INFO received ack: {"type": "push-ack", "lastRefTime":"10867745627889", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 3, total push: 2
 
-2019-09-02 09:54:15,505 INFO received ack: {"type": "push-ack", "lastRefTime":"4366657156580", "data":""} from: 192.168.190.197:, cost: 52383 ms, unacked: 5, total push: 2
+2019-09-04 11:04:51,700 INFO received ack: {"type": "push-ack", "lastRefTime":"10867745627889", "data":""} from: 192.168.190.197:, cost: 65147 ms, unacked: 4, total push: 1
 
-2019-09-02 09:54:15,506 INFO received ack: {"type": "push-ack", "lastRefTime":"4366657156580", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 7, total push: 1
+2019-09-04 11:04:51,703 INFO received ack: {"type": "push-ack", "lastRefTime":"10867745627889", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 6, total push: 0
 
-2019-09-02 09:54:15,506 INFO received ack: {"type": "push-ack", "lastRefTime":"4366657156580", "data":""} from: 192.168.190.197:, cost: 52376 ms, unacked: 6, total push: 0
+2019-09-04 11:04:51,708 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:54:25,535 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:04:51,708 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,10867757493483
 
-2019-09-02 09:54:25,535 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4376691908494
+2019-09-04 11:04:51,708 INFO send udp packet: 192.168.190.197,50487,10867757493483
 
-2019-09-02 09:54:25,535 INFO send udp packet: 192.168.190.197,52378,4376691908494
+2019-09-04 11:04:51,708 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10867757493483
 
-2019-09-02 09:54:25,535 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52383, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52383,4376691908494
+2019-09-04 11:04:51,708 INFO send udp packet: 192.168.190.197,65145,10867757493483
 
-2019-09-02 09:54:25,535 INFO send udp packet: 192.168.190.197,52383,4376691908494
+2019-09-04 11:04:51,708 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65147, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65147,10867757493483
 
-2019-09-02 09:54:25,535 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52376, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52376,4376691908494
+2019-09-04 11:04:51,708 INFO send udp packet: 192.168.190.197,65147,10867757493483
 
-2019-09-02 09:54:25,535 INFO send udp packet: 192.168.190.197,52376,4376691908494
+2019-09-04 11:04:51,712 INFO received ack: {"type": "push-ack", "lastRefTime":"10867757493483", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 4, total push: 2
 
-2019-09-02 09:54:25,537 INFO received ack: {"type": "push-ack", "lastRefTime":"4376691908494", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 2
+2019-09-04 11:04:51,712 INFO received ack: {"type": "push-ack", "lastRefTime":"10867757493483", "data":""} from: 192.168.190.197:, cost: 65147 ms, unacked: 4, total push: 1
 
-2019-09-02 09:54:25,537 INFO received ack: {"type": "push-ack", "lastRefTime":"4376691908494", "data":""} from: 192.168.190.197:, cost: 52376 ms, unacked: 2, total push: 1
+2019-09-04 11:04:51,712 INFO received ack: {"type": "push-ack", "lastRefTime":"10867757493483", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 4, total push: 0
 
-2019-09-02 09:54:25,543 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:05:01,737 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:54:25,543 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52383, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52383,4376700044169
+2019-09-04 11:05:01,737 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,10877786029000
 
-2019-09-02 09:54:25,543 INFO send udp packet: 192.168.190.197,52383,4376700044169
+2019-09-04 11:05:01,737 INFO send udp packet: 192.168.190.197,50487,10877786029000
 
-2019-09-02 09:54:25,543 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4376700044169
+2019-09-04 11:05:01,737 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10877786029000
 
-2019-09-02 09:54:25,543 INFO send udp packet: 192.168.190.197,52378,4376700044169
+2019-09-04 11:05:01,737 INFO send udp packet: 192.168.190.197,65145,10877786029000
 
-2019-09-02 09:54:25,544 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52376, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52376,4376700044169
+2019-09-04 11:05:01,738 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65147, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65147,10877786029000
 
-2019-09-02 09:54:25,544 INFO send udp packet: 192.168.190.197,52376,4376700044169
+2019-09-04 11:05:01,738 INFO send udp packet: 192.168.190.197,65147,10877786029000
 
-2019-09-02 09:54:25,545 INFO received ack: {"type": "push-ack", "lastRefTime":"4376700044169", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 3
+2019-09-04 11:05:01,738 INFO received ack: {"type": "push-ack", "lastRefTime":"10877786029000", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 1, total push: 2
 
-2019-09-02 09:54:25,548 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
+2019-09-04 11:05:01,739 INFO received ack: {"type": "push-ack", "lastRefTime":"10877786029000", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 2, total push: 1
 
-2019-09-02 09:54:25,549 INFO serviceName: DEFAULT_GROUP@@dubbo-service changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4376705661590
+2019-09-04 11:05:01,754 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:54:25,549 INFO send udp packet: 192.168.190.197,52378,4376705661590
+2019-09-04 11:05:01,754 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65147, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65147,10877802976620
 
-2019-09-02 09:54:25,552 INFO received ack: {"type": "push-ack", "lastRefTime":"4376705661590", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 3, total push: 3
+2019-09-04 11:05:01,754 INFO send udp packet: 192.168.190.197,65147,10877802976620
 
-2019-09-02 09:54:25,554 INFO received ack: {"type": "push-ack", "lastRefTime":"4376700044169", "data":""} from: 192.168.190.197:, cost: 52376 ms, unacked: 10, total push: 2
+2019-09-04 11:05:01,754 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10877802976620
 
-2019-09-02 09:54:35,538 INFO retry to push data, key: 192.168.190.197,52383,4376691908494
+2019-09-04 11:05:01,754 INFO send udp packet: 192.168.190.197,65145,10877802976620
 
-2019-09-02 09:54:35,538 INFO send udp packet: 192.168.190.197,52383,4376691908494
+2019-09-04 11:05:01,754 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,10877802976620
 
-2019-09-02 09:54:35,546 INFO retry to push data, key: 192.168.190.197,52383,4376700044169
+2019-09-04 11:05:01,754 INFO send udp packet: 192.168.190.197,50487,10877802976620
 
-2019-09-02 09:54:35,546 INFO send udp packet: 192.168.190.197,52383,4376700044169
+2019-09-04 11:05:01,756 INFO received ack: {"type": "push-ack", "lastRefTime":"10877802976620", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 2, total push: 3
 
-2019-09-02 09:54:36,961 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:05:01,757 INFO received ack: {"type": "push-ack", "lastRefTime":"10877802976620", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 3, total push: 2
 
-2019-09-02 09:54:36,961 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51469, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51469,4388115491311
+2019-09-04 11:05:01,769 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
 
-2019-09-02 09:54:36,962 INFO send udp packet: 192.168.190.197,51469,4388115491311
+2019-09-04 11:05:01,770 INFO serviceName: DEFAULT_GROUP@@dubbo-service changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10877818737281
 
-2019-09-02 09:54:36,962 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4388115491311
+2019-09-04 11:05:01,770 INFO send udp packet: 192.168.190.197,65145,10877818737281
 
-2019-09-02 09:54:36,962 INFO send udp packet: 192.168.190.197,52378,4388115491311
+2019-09-04 11:05:01,774 INFO received ack: {"type": "push-ack", "lastRefTime":"10877818737281", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 4, total push: 2
 
-2019-09-02 09:54:36,963 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52376, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52376,4388115491311
+2019-09-04 11:05:11,740 INFO retry to push data, key: 192.168.190.197,65147,10877786029000
 
-2019-09-02 09:54:36,964 INFO send udp packet: 192.168.190.197,52376,4388115491311
+2019-09-04 11:05:11,740 INFO send udp packet: 192.168.190.197,65147,10877786029000
 
-2019-09-02 09:54:36,968 INFO received ack: {"type": "push-ack", "lastRefTime":"4388115491311", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 6, total push: 4
+2019-09-04 11:05:11,756 INFO retry to push data, key: 192.168.190.197,65147,10877802976620
 
-2019-09-02 09:54:36,973 INFO received ack: {"type": "push-ack", "lastRefTime":"4388115491311", "data":""} from: 192.168.190.197:, cost: 52376 ms, unacked: 9, total push: 3
+2019-09-04 11:05:11,756 INFO send udp packet: 192.168.190.197,65147,10877802976620
 
-2019-09-02 09:54:36,982 INFO received ack: {"type": "push-ack", "lastRefTime":"4388115491311", "data":""} from: 192.168.190.197:, cost: 51469 ms, unacked: 20, total push: 2
+2019-09-04 11:05:17,589 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:54:37,016 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:05:17,589 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10893637624344
 
-2019-09-02 09:54:37,016 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4388170461055
+2019-09-04 11:05:17,589 INFO send udp packet: 192.168.190.197,65145,10893637624344
 
-2019-09-02 09:54:37,016 INFO send udp packet: 192.168.190.197,52378,4388170461055
+2019-09-04 11:05:17,590 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:60755, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,60755,10893637624344
 
-2019-09-02 09:54:37,016 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51469, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51469,4388170461055
+2019-09-04 11:05:17,590 INFO send udp packet: 192.168.190.197,60755,10893637624344
 
-2019-09-02 09:54:37,017 INFO send udp packet: 192.168.190.197,51469,4388170461055
+2019-09-04 11:05:17,590 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,10893637624344
 
-2019-09-02 09:54:37,017 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52376, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52376,4388170461055
+2019-09-04 11:05:17,590 INFO send udp packet: 192.168.190.197,50487,10893637624344
 
-2019-09-02 09:54:37,017 INFO send udp packet: 192.168.190.197,52376,4388170461055
+2019-09-04 11:05:17,593 INFO received ack: {"type": "push-ack", "lastRefTime":"10893637624344", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 4, total push: 4
 
-2019-09-02 09:54:37,018 INFO received ack: {"type": "push-ack", "lastRefTime":"4388170461055", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 4
+2019-09-04 11:05:17,595 INFO received ack: {"type": "push-ack", "lastRefTime":"10893637624344", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 5, total push: 3
 
-2019-09-02 09:54:37,019 INFO received ack: {"type": "push-ack", "lastRefTime":"4388170461055", "data":""} from: 192.168.190.197:, cost: 51469 ms, unacked: 2, total push: 3
+2019-09-04 11:05:17,602 INFO received ack: {"type": "push-ack", "lastRefTime":"10893637624344", "data":""} from: 192.168.190.197:, cost: 60755 ms, unacked: 12, total push: 2
 
-2019-09-02 09:54:37,019 INFO received ack: {"type": "push-ack", "lastRefTime":"4388170461055", "data":""} from: 192.168.190.197:, cost: 52376 ms, unacked: 2, total push: 2
+2019-09-04 11:05:17,645 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:54:37,048 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
+2019-09-04 11:05:17,645 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,10893693550691
 
-2019-09-02 09:54:37,048 INFO serviceName: DEFAULT_GROUP@@dubbo-service changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4388202431591
+2019-09-04 11:05:17,645 INFO send udp packet: 192.168.190.197,50487,10893693550691
 
-2019-09-02 09:54:37,048 INFO send udp packet: 192.168.190.197,52378,4388202431591
+2019-09-04 11:05:17,646 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:60755, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,60755,10893693550691
 
-2019-09-02 09:54:37,050 INFO received ack: {"type": "push-ack", "lastRefTime":"4388202431591", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 2
+2019-09-04 11:05:17,646 INFO send udp packet: 192.168.190.197,60755,10893693550691
 
-2019-09-02 09:54:45,541 INFO retry to push data, key: 192.168.190.197,52383,4376691908494
+2019-09-04 11:05:17,646 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10893693550691
 
-2019-09-02 09:54:45,541 WARN max re-push times reached, retry times 2, key: 192.168.190.197,52383,4376691908494
+2019-09-04 11:05:17,646 INFO send udp packet: 192.168.190.197,65145,10893693550691
 
-2019-09-02 09:54:45,548 INFO retry to push data, key: 192.168.190.197,52383,4376700044169
+2019-09-04 11:05:17,648 INFO received ack: {"type": "push-ack", "lastRefTime":"10893693550691", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 3, total push: 4
 
-2019-09-02 09:54:45,548 WARN max re-push times reached, retry times 2, key: 192.168.190.197,52383,4376700044169
+2019-09-04 11:05:17,648 INFO received ack: {"type": "push-ack", "lastRefTime":"10893693550691", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 2, total push: 3
 
-2019-09-02 09:54:57,296 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:05:17,650 INFO received ack: {"type": "push-ack", "lastRefTime":"10893693550691", "data":""} from: 192.168.190.197:, cost: 60755 ms, unacked: 4, total push: 2
 
-2019-09-02 09:54:57,296 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4408447458858
+2019-09-04 11:05:17,676 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
 
-2019-09-02 09:54:57,296 INFO send udp packet: 192.168.190.197,52378,4408447458858
+2019-09-04 11:05:17,676 INFO serviceName: DEFAULT_GROUP@@dubbo-service changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,10893724557796
 
-2019-09-02 09:54:57,298 INFO received ack: {"type": "push-ack", "lastRefTime":"4408447458858", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 0
+2019-09-04 11:05:17,676 INFO send udp packet: 192.168.190.197,65145,10893724557796
 
-2019-09-02 09:54:57,298 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:05:17,678 INFO received ack: {"type": "push-ack", "lastRefTime":"10893724557796", "data":""} from: 192.168.190.197:, cost: 65145 ms, unacked: 2, total push: 2
 
-2019-09-02 09:54:57,299 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4408450056560
+2019-09-04 11:05:21,742 INFO retry to push data, key: 192.168.190.197,65147,10877786029000
 
-2019-09-02 09:54:57,299 INFO send udp packet: 192.168.190.197,52378,4408450056560
+2019-09-04 11:05:21,742 WARN max re-push times reached, retry times 2, key: 192.168.190.197,65147,10877786029000
 
-2019-09-02 09:54:57,300 INFO received ack: {"type": "push-ack", "lastRefTime":"4408450056560", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 1, total push: 0
+2019-09-04 11:05:21,758 INFO retry to push data, key: 192.168.190.197,65147,10877802976620
 
-2019-09-02 09:54:57,312 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
+2019-09-04 11:05:21,758 WARN max re-push times reached, retry times 2, key: 192.168.190.197,65147,10877802976620
 
-2019-09-02 09:54:57,312 INFO serviceName: DEFAULT_GROUP@@dubbo-control changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4408463265917
+2019-09-04 11:07:08,293 INFO DEFAULT_GROUP@@dubbo-gateway is changed, add it to push queue.
 
-2019-09-02 09:54:57,312 INFO send udp packet: 192.168.190.197,52378,4408463265917
+2019-09-04 11:07:08,294 INFO serviceName: DEFAULT_GROUP@@dubbo-gateway changed, schedule push for: 192.168.190.197:65145, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,65145,11004334762156
 
-2019-09-02 09:54:57,314 INFO received ack: {"type": "push-ack", "lastRefTime":"4408463265917", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 0
+2019-09-04 11:07:08,294 INFO send udp packet: 192.168.190.197,65145,11004334762156
 
-2019-09-02 09:55:06,125 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:07:15,640 WARN client: 192.168.190.197:59628 already associated with key serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo, clusters: , ip: 192.168.190.197, port: 59628, agent: Nacos-Java-Client:v1.1.1
 
-2019-09-02 09:55:06,126 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4417276151946
+2019-09-04 11:07:15,663 WARN client: 192.168.190.197:59628 already associated with key serviceName: DEFAULT_GROUP@@dubbo-gateway, clusters: , ip: 192.168.190.197, port: 59628, agent: Nacos-Java-Client:v1.1.1
 
-2019-09-02 09:55:06,126 INFO send udp packet: 192.168.190.197,52378,4417276151946
+2019-09-04 11:07:15,667 WARN client: 192.168.190.197:59628 already associated with key serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo, clusters: , ip: 192.168.190.197, port: 59628, agent: Nacos-Java-Client:v1.1.1
 
-2019-09-02 09:55:06,128 INFO received ack: {"type": "push-ack", "lastRefTime":"4417276151946", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 0
+2019-09-04 11:07:15,677 WARN client: 192.168.190.197:59628 already associated with key serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo, clusters: , ip: 192.168.190.197, port: 59628, agent: Nacos-Java-Client:v1.1.1
 
-2019-09-02 09:55:06,378 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:07:16,911 INFO DEFAULT_GROUP@@dubbo-gateway is changed, add it to push queue.
 
-2019-09-02 09:55:06,378 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4417528730333
+2019-09-04 11:07:16,911 INFO serviceName: DEFAULT_GROUP@@dubbo-gateway changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11012952282520
 
-2019-09-02 09:55:06,378 INFO send udp packet: 192.168.190.197,52378,4417528730333
+2019-09-04 11:07:16,911 INFO send udp packet: 192.168.190.197,59628,11012952282520
 
-2019-09-02 09:55:06,380 INFO received ack: {"type": "push-ack", "lastRefTime":"4417528730333", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 0
+2019-09-04 11:07:16,916 INFO received ack: {"type": "push-ack", "lastRefTime":"11012952282520", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 5, total push: 1
 
-2019-09-02 09:55:08,752 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
+2019-09-04 11:07:18,313 INFO retry to push data, key: 192.168.190.197,65145,11004334762156
 
-2019-09-02 09:55:08,752 INFO serviceName: DEFAULT_GROUP@@dubbo-control changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4419901969923
+2019-09-04 11:07:18,314 INFO send udp packet: 192.168.190.197,65145,11004334762156
 
-2019-09-02 09:55:08,752 INFO send udp packet: 192.168.190.197,52378,4419901969923
+2019-09-04 11:07:28,331 INFO retry to push data, key: 192.168.190.197,65145,11004334762156
 
-2019-09-02 09:55:08,756 INFO received ack: {"type": "push-ack", "lastRefTime":"4419901969923", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 4, total push: 0
+2019-09-04 11:07:28,331 WARN max re-push times reached, retry times 2, key: 192.168.190.197,65145,11004334762156
 
-2019-09-02 09:59:24,504 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:00,979 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:59:24,504 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51469, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51469,4675640892518
+2019-09-04 11:11:00,979 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11237006346975
 
-2019-09-02 09:59:24,504 INFO send udp packet: 192.168.190.197,51469,4675640892518
+2019-09-04 11:11:00,979 INFO send udp packet: 192.168.190.197,59628,11237006346975
 
-2019-09-02 09:59:24,504 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4675640892518
+2019-09-04 11:11:00,981 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,11237006346975
 
-2019-09-02 09:59:24,504 INFO send udp packet: 192.168.190.197,52378,4675640892518
+2019-09-04 11:11:00,981 INFO send udp packet: 192.168.190.197,50487,11237006346975
 
-2019-09-02 09:59:24,504 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51471, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51471,4675640892518
+2019-09-04 11:11:00,981 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:60755, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,60755,11237006346975
 
-2019-09-02 09:59:24,504 INFO send udp packet: 192.168.190.197,51471,4675640892518
+2019-09-04 11:11:00,981 INFO send udp packet: 192.168.190.197,60755,11237006346975
 
-2019-09-02 09:59:24,506 INFO received ack: {"type": "push-ack", "lastRefTime":"4675640892518", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 2
+2019-09-04 11:11:00,982 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:59:24,507 INFO received ack: {"type": "push-ack", "lastRefTime":"4675640892518", "data":""} from: 192.168.190.197:, cost: 51469 ms, unacked: 3, total push: 1
+2019-09-04 11:11:00,982 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:60755, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,60755,11237009166963
 
-2019-09-02 09:59:24,507 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:00,982 INFO send udp packet: 192.168.190.197,60755,11237009166963
 
-2019-09-02 09:59:24,508 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4675644571867
+2019-09-04 11:11:00,982 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,11237009166963
 
-2019-09-02 09:59:24,508 INFO send udp packet: 192.168.190.197,52378,4675644571867
+2019-09-04 11:11:00,982 INFO send udp packet: 192.168.190.197,50487,11237009166963
 
-2019-09-02 09:59:24,509 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51471, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51471,4675644571867
+2019-09-04 11:11:00,983 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11237009166963
 
-2019-09-02 09:59:24,509 INFO send udp packet: 192.168.190.197,51471,4675644571867
+2019-09-04 11:11:00,983 INFO send udp packet: 192.168.190.197,59628,11237009166963
 
-2019-09-02 09:59:24,509 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51469, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51469,4675644571867
+2019-09-04 11:11:00,987 INFO received ack: {"type": "push-ack", "lastRefTime":"11237006346975", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 8, total push: 5
 
-2019-09-02 09:59:24,509 INFO send udp packet: 192.168.190.197,51469,4675644571867
+2019-09-04 11:11:00,987 INFO received ack: {"type": "push-ack", "lastRefTime":"11237006346975", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 6, total push: 4
 
-2019-09-02 09:59:24,509 INFO received ack: {"type": "push-ack", "lastRefTime":"4675644571867", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 1, total push: 2
+2019-09-04 11:11:00,989 INFO received ack: {"type": "push-ack", "lastRefTime":"11237009166963", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 6, total push: 3
 
-2019-09-02 09:59:24,511 INFO received ack: {"type": "push-ack", "lastRefTime":"4675644571867", "data":""} from: 192.168.190.197:, cost: 51469 ms, unacked: 2, total push: 2
+2019-09-04 11:11:00,990 INFO received ack: {"type": "push-ack", "lastRefTime":"11237009166963", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 8, total push: 2
 
-2019-09-02 09:59:24,512 INFO received ack: {"type": "push-ack", "lastRefTime":"4675640892518", "data":""} from: 192.168.190.197:, cost: 51471 ms, unacked: 8, total push: 1
+2019-09-04 11:11:00,991 INFO received ack: {"type": "push-ack", "lastRefTime":"11237006346975", "data":""} from: 192.168.190.197:, cost: 60755 ms, unacked: 10, total push: 1
 
-2019-09-02 09:59:24,515 INFO received ack: {"type": "push-ack", "lastRefTime":"4675644571867", "data":""} from: 192.168.190.197:, cost: 51471 ms, unacked: 6, total push: 0
+2019-09-04 11:11:00,994 INFO received ack: {"type": "push-ack", "lastRefTime":"11237009166963", "data":""} from: 192.168.190.197:, cost: 60755 ms, unacked: 12, total push: 0
 
-2019-09-02 09:59:34,544 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:11,008 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:59:34,544 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4685680334362
+2019-09-04 11:11:11,008 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:60755, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,60755,11247034675493
 
-2019-09-02 09:59:34,544 INFO send udp packet: 192.168.190.197,52378,4685680334362
+2019-09-04 11:11:11,008 INFO send udp packet: 192.168.190.197,60755,11247034675493
 
-2019-09-02 09:59:34,544 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51471, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51471,4685680334362
+2019-09-04 11:11:11,008 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,11247034675493
 
-2019-09-02 09:59:34,544 INFO send udp packet: 192.168.190.197,51471,4685680334362
+2019-09-04 11:11:11,008 INFO send udp packet: 192.168.190.197,50487,11247034675493
 
-2019-09-02 09:59:34,544 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51469, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51469,4685680334362
+2019-09-04 11:11:11,009 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11247034675493
 
-2019-09-02 09:59:34,544 INFO send udp packet: 192.168.190.197,51469,4685680334362
+2019-09-04 11:11:11,009 INFO send udp packet: 192.168.190.197,59628,11247034675493
 
-2019-09-02 09:59:34,545 INFO received ack: {"type": "push-ack", "lastRefTime":"4685680334362", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 1, total push: 2
+2019-09-04 11:11:11,010 INFO received ack: {"type": "push-ack", "lastRefTime":"11247034675493", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 2, total push: 2
 
-2019-09-02 09:59:34,545 INFO received ack: {"type": "push-ack", "lastRefTime":"4685680334362", "data":""} from: 192.168.190.197:, cost: 51471 ms, unacked: 1, total push: 1
+2019-09-04 11:11:11,010 INFO received ack: {"type": "push-ack", "lastRefTime":"11247034675493", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 1, total push: 1
 
-2019-09-02 09:59:34,554 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:11,012 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:59:34,554 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51469, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51469,4685690275091
+2019-09-04 11:11:11,012 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11247038476171
 
-2019-09-02 09:59:34,554 INFO send udp packet: 192.168.190.197,51469,4685690275091
+2019-09-04 11:11:11,012 INFO send udp packet: 192.168.190.197,59628,11247038476171
 
-2019-09-02 09:59:34,554 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4685690275091
+2019-09-04 11:11:11,012 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,11247038476171
 
-2019-09-02 09:59:34,554 INFO send udp packet: 192.168.190.197,52378,4685690275091
+2019-09-04 11:11:11,012 INFO send udp packet: 192.168.190.197,50487,11247038476171
 
-2019-09-02 09:59:34,554 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51471, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51471,4685690275091
+2019-09-04 11:11:11,012 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:60755, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,60755,11247038476171
 
-2019-09-02 09:59:34,554 INFO send udp packet: 192.168.190.197,51471,4685690275091
+2019-09-04 11:11:11,012 INFO send udp packet: 192.168.190.197,60755,11247038476171
 
-2019-09-02 09:59:34,555 INFO received ack: {"type": "push-ack", "lastRefTime":"4685690275091", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 1, total push: 3
+2019-09-04 11:11:11,013 INFO received ack: {"type": "push-ack", "lastRefTime":"11247038476171", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 1, total push: 3
 
-2019-09-02 09:59:34,555 INFO received ack: {"type": "push-ack", "lastRefTime":"4685690275091", "data":""} from: 192.168.190.197:, cost: 51471 ms, unacked: 1, total push: 2
+2019-09-04 11:11:11,013 INFO received ack: {"type": "push-ack", "lastRefTime":"11247038476171", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 1, total push: 2
 
-2019-09-02 09:59:34,570 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
+2019-09-04 11:11:11,037 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
 
-2019-09-02 09:59:34,570 INFO serviceName: DEFAULT_GROUP@@dubbo-service changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4685706320855
+2019-09-04 11:11:11,037 INFO serviceName: DEFAULT_GROUP@@dubbo-service changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11247063753651
 
-2019-09-02 09:59:34,570 INFO send udp packet: 192.168.190.197,52378,4685706320855
+2019-09-04 11:11:11,037 INFO send udp packet: 192.168.190.197,59628,11247063753651
 
-2019-09-02 09:59:34,571 INFO received ack: {"type": "push-ack", "lastRefTime":"4685706320855", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 1, total push: 2
+2019-09-04 11:11:11,040 INFO received ack: {"type": "push-ack", "lastRefTime":"11247063753651", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 3, total push: 2
 
-2019-09-02 09:59:44,546 INFO retry to push data, key: 192.168.190.197,51469,4685680334362
+2019-09-04 11:11:21,010 INFO retry to push data, key: 192.168.190.197,60755,11247034675493
 
-2019-09-02 09:59:44,546 INFO send udp packet: 192.168.190.197,51469,4685680334362
+2019-09-04 11:11:21,010 INFO send udp packet: 192.168.190.197,60755,11247034675493
 
-2019-09-02 09:59:44,555 INFO retry to push data, key: 192.168.190.197,51469,4685690275091
+2019-09-04 11:11:21,014 INFO retry to push data, key: 192.168.190.197,60755,11247038476171
 
-2019-09-02 09:59:44,555 INFO send udp packet: 192.168.190.197,51469,4685690275091
+2019-09-04 11:11:21,014 INFO send udp packet: 192.168.190.197,60755,11247038476171
 
-2019-09-02 09:59:49,351 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:27,437 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:59:49,351 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4700486124453
+2019-09-04 11:11:27,437 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:57963, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,57963,11263463168881
 
-2019-09-02 09:59:49,352 INFO send udp packet: 192.168.190.197,52378,4700486124453
+2019-09-04 11:11:27,437 INFO send udp packet: 192.168.190.197,57963,11263463168881
 
-2019-09-02 09:59:49,352 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52932, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52932,4700486124453
+2019-09-04 11:11:27,438 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,11263463168881
 
-2019-09-02 09:59:49,352 INFO send udp packet: 192.168.190.197,52932,4700486124453
+2019-09-04 11:11:27,438 INFO send udp packet: 192.168.190.197,50487,11263463168881
 
-2019-09-02 09:59:49,353 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51471, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51471,4700486124453
+2019-09-04 11:11:27,438 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11263463168881
 
-2019-09-02 09:59:49,353 INFO send udp packet: 192.168.190.197,51471,4700486124453
+2019-09-04 11:11:27,438 INFO send udp packet: 192.168.190.197,59628,11263463168881
 
-2019-09-02 09:59:49,355 INFO received ack: {"type": "push-ack", "lastRefTime":"4700486124453", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 3, total push: 4
+2019-09-04 11:11:27,442 INFO received ack: {"type": "push-ack", "lastRefTime":"11263463168881", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 4, total push: 4
 
-2019-09-02 09:59:49,360 INFO received ack: {"type": "push-ack", "lastRefTime":"4700486124453", "data":""} from: 192.168.190.197:, cost: 51471 ms, unacked: 7, total push: 3
+2019-09-04 11:11:27,443 INFO received ack: {"type": "push-ack", "lastRefTime":"11263463168881", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 5, total push: 3
 
-2019-09-02 09:59:49,367 INFO received ack: {"type": "push-ack", "lastRefTime":"4700486124453", "data":""} from: 192.168.190.197:, cost: 52932 ms, unacked: 15, total push: 2
+2019-09-04 11:11:27,448 INFO received ack: {"type": "push-ack", "lastRefTime":"11263463168881", "data":""} from: 192.168.190.197:, cost: 57963 ms, unacked: 11, total push: 2
 
-2019-09-02 09:59:49,408 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:27,490 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 09:59:49,408 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4700543026803
+2019-09-04 11:11:27,490 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11263516140400
 
-2019-09-02 09:59:49,408 INFO send udp packet: 192.168.190.197,52378,4700543026803
+2019-09-04 11:11:27,490 INFO send udp packet: 192.168.190.197,59628,11263516140400
 
-2019-09-02 09:59:49,409 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52932, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52932,4700543026803
+2019-09-04 11:11:27,491 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:50487, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,50487,11263516140400
 
-2019-09-02 09:59:49,409 INFO send udp packet: 192.168.190.197,52932,4700543026803
+2019-09-04 11:11:27,491 INFO send udp packet: 192.168.190.197,50487,11263516140400
 
-2019-09-02 09:59:49,409 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:51471, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,51471,4700543026803
+2019-09-04 11:11:27,491 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:57963, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,57963,11263516140400
 
-2019-09-02 09:59:49,409 INFO send udp packet: 192.168.190.197,51471,4700543026803
+2019-09-04 11:11:27,491 INFO send udp packet: 192.168.190.197,57963,11263516140400
 
-2019-09-02 09:59:49,411 INFO received ack: {"type": "push-ack", "lastRefTime":"4700543026803", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 3, total push: 4
+2019-09-04 11:11:27,492 INFO received ack: {"type": "push-ack", "lastRefTime":"11263516140400", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 2, total push: 4
 
-2019-09-02 09:59:49,412 INFO received ack: {"type": "push-ack", "lastRefTime":"4700543026803", "data":""} from: 192.168.190.197:, cost: 51471 ms, unacked: 3, total push: 3
+2019-09-04 11:11:27,494 INFO received ack: {"type": "push-ack", "lastRefTime":"11263516140400", "data":""} from: 192.168.190.197:, cost: 50487 ms, unacked: 3, total push: 3
 
-2019-09-02 09:59:49,415 INFO received ack: {"type": "push-ack", "lastRefTime":"4700543026803", "data":""} from: 192.168.190.197:, cost: 52932 ms, unacked: 6, total push: 2
+2019-09-04 11:11:27,497 INFO received ack: {"type": "push-ack", "lastRefTime":"11263516140400", "data":""} from: 192.168.190.197:, cost: 57963 ms, unacked: 6, total push: 2
 
-2019-09-02 09:59:49,501 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
+2019-09-04 11:11:27,533 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
 
-2019-09-02 09:59:49,501 INFO serviceName: DEFAULT_GROUP@@dubbo-service changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,4700636055720
+2019-09-04 11:11:27,533 INFO serviceName: DEFAULT_GROUP@@dubbo-service changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11263559187662
 
-2019-09-02 09:59:49,501 INFO send udp packet: 192.168.190.197,52378,4700636055720
+2019-09-04 11:11:27,533 INFO send udp packet: 192.168.190.197,59628,11263559187662
 
-2019-09-02 09:59:49,503 INFO received ack: {"type": "push-ack", "lastRefTime":"4700636055720", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 2
+2019-09-04 11:11:27,534 INFO received ack: {"type": "push-ack", "lastRefTime":"11263559187662", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 1, total push: 2
 
-2019-09-02 09:59:54,548 INFO retry to push data, key: 192.168.190.197,51469,4685680334362
+2019-09-04 11:11:31,012 INFO retry to push data, key: 192.168.190.197,60755,11247034675493
 
-2019-09-02 09:59:54,548 WARN max re-push times reached, retry times 2, key: 192.168.190.197,51469,4685680334362
+2019-09-04 11:11:31,012 WARN max re-push times reached, retry times 2, key: 192.168.190.197,60755,11247034675493
 
-2019-09-02 09:59:54,557 INFO retry to push data, key: 192.168.190.197,51469,4685690275091
+2019-09-04 11:11:31,016 INFO retry to push data, key: 192.168.190.197,60755,11247038476171
 
-2019-09-02 09:59:54,557 WARN max re-push times reached, retry times 2, key: 192.168.190.197,51469,4685690275091
+2019-09-04 11:11:31,016 WARN max re-push times reached, retry times 2, key: 192.168.190.197,60755,11247038476171
 
-2019-09-02 10:27:07,026 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:38,057 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 10:27:07,026 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,6338146815701
+2019-09-04 11:11:38,057 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11274081722415
 
-2019-09-02 10:27:07,026 INFO send udp packet: 192.168.190.197,52378,6338146815701
+2019-09-04 11:11:38,057 INFO send udp packet: 192.168.190.197,59628,11274081722415
 
-2019-09-02 10:27:07,028 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:38,060 INFO received ack: {"type": "push-ack", "lastRefTime":"11274081722415", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 3, total push: 0
 
-2019-09-02 10:27:07,028 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,6338148595608
+2019-09-04 11:11:38,061 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 10:27:07,028 INFO send udp packet: 192.168.190.197,52378,6338148595608
+2019-09-04 11:11:38,061 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11274085446197
 
-2019-09-02 10:27:07,029 INFO received ack: {"type": "push-ack", "lastRefTime":"6338146815701", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 3, total push: 1
+2019-09-04 11:11:38,061 INFO send udp packet: 192.168.190.197,59628,11274085446197
 
-2019-09-02 10:27:07,030 INFO received ack: {"type": "push-ack", "lastRefTime":"6338148595608", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 0
+2019-09-04 11:11:38,064 INFO received ack: {"type": "push-ack", "lastRefTime":"11274085446197", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 3, total push: 0
 
-2019-09-02 10:27:07,042 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
+2019-09-04 11:11:38,083 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
 
-2019-09-02 10:27:07,042 INFO serviceName: DEFAULT_GROUP@@dubbo-control changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,6338162672688
+2019-09-04 11:11:38,083 INFO serviceName: DEFAULT_GROUP@@dubbo-control changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11274108101577
 
-2019-09-02 10:27:07,042 INFO send udp packet: 192.168.190.197,52378,6338162672688
+2019-09-04 11:11:38,083 INFO send udp packet: 192.168.190.197,59628,11274108101577
 
-2019-09-02 10:27:07,045 INFO received ack: {"type": "push-ack", "lastRefTime":"6338162672688", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 3, total push: 0
+2019-09-04 11:11:38,085 INFO received ack: {"type": "push-ack", "lastRefTime":"11274108101577", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 2, total push: 0
 
-2019-09-02 10:27:21,185 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:48,670 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 10:27:21,185 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,6352303445672
+2019-09-04 11:11:48,671 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11284694254412
 
-2019-09-02 10:27:21,185 INFO send udp packet: 192.168.190.197,52378,6352303445672
+2019-09-04 11:11:48,671 INFO send udp packet: 192.168.190.197,59628,11284694254412
 
-2019-09-02 10:27:21,187 INFO received ack: {"type": "push-ack", "lastRefTime":"6352303445672", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 0
+2019-09-04 11:11:48,674 INFO received ack: {"type": "push-ack", "lastRefTime":"11284694254412", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 3, total push: 0
 
-2019-09-02 10:27:21,476 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:11:48,977 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
 
-2019-09-02 10:27:21,476 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,6352594333599
+2019-09-04 11:11:48,977 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11285001049204
 
-2019-09-02 10:27:21,476 INFO send udp packet: 192.168.190.197,52378,6352594333599
+2019-09-04 11:11:48,977 INFO send udp packet: 192.168.190.197,59628,11285001049204
 
-2019-09-02 10:27:21,477 INFO received ack: {"type": "push-ack", "lastRefTime":"6352594333599", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 1, total push: 0
+2019-09-04 11:11:48,979 INFO received ack: {"type": "push-ack", "lastRefTime":"11285001049204", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 2, total push: 0
 
-2019-09-02 10:27:23,987 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
+2019-09-04 11:11:51,585 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
 
-2019-09-02 10:27:23,987 INFO serviceName: DEFAULT_GROUP@@dubbo-control changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,6355105507579
+2019-09-04 11:11:51,585 INFO serviceName: DEFAULT_GROUP@@dubbo-control changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,11287609155519
 
-2019-09-02 10:27:23,987 INFO send udp packet: 192.168.190.197,52378,6355105507579
+2019-09-04 11:11:51,585 INFO send udp packet: 192.168.190.197,59628,11287609155519
 
-2019-09-02 10:27:23,989 INFO received ack: {"type": "push-ack", "lastRefTime":"6355105507579", "data":""} from: 192.168.190.197:, cost: 52378 ms, unacked: 2, total push: 0
+2019-09-04 11:11:51,587 INFO received ack: {"type": "push-ack", "lastRefTime":"11287609155519", "data":""} from: 192.168.190.197:, cost: 59628 ms, unacked: 2, total push: 0
 
-2019-09-02 11:06:42,326 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:30:26,225 INFO DEFAULT_GROUP@@dubbo-gateway is changed, add it to push queue.
 
-2019-09-02 11:06:42,326 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,8713358165413
+2019-09-04 11:30:26,225 INFO serviceName: DEFAULT_GROUP@@dubbo-gateway changed, schedule push for: 192.168.190.197:59628, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,59628,12402191489090
 
-2019-09-02 11:06:42,326 INFO send udp packet: 192.168.190.197,52378,8713358165413
+2019-09-04 11:30:26,225 INFO send udp packet: 192.168.190.197,59628,12402191489090
 
-2019-09-02 11:06:42,331 INFO DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
+2019-09-04 11:30:36,226 INFO retry to push data, key: 192.168.190.197,59628,12402191489090
 
-2019-09-02 11:06:42,331 INFO serviceName: DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,8713363021162
+2019-09-04 11:30:36,226 INFO send udp packet: 192.168.190.197,59628,12402191489090
 
-2019-09-02 11:06:42,331 INFO send udp packet: 192.168.190.197,52378,8713363021162
+2019-09-04 11:30:39,491 INFO DEFAULT_GROUP@@dubbo-gateway is changed, add it to push queue.
 
-2019-09-02 11:06:42,361 INFO DEFAULT_GROUP@@dubbo-control is changed, add it to push queue.
+2019-09-04 11:30:39,491 INFO serviceName: DEFAULT_GROUP@@dubbo-gateway changed, schedule push for: 192.168.190.197:61494, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,61494,12415457881314
 
-2019-09-02 11:06:42,361 INFO serviceName: DEFAULT_GROUP@@dubbo-control changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,8713392980738
+2019-09-04 11:30:39,491 INFO send udp packet: 192.168.190.197,61494,12415457881314
 
-2019-09-02 11:06:42,361 INFO send udp packet: 192.168.190.197,52378,8713392980738
+2019-09-04 11:30:39,505 INFO received ack: {"type": "push-ack", "lastRefTime":"12415457881314", "data":""} from: 192.168.190.197:, cost: 61494 ms, unacked: 14, total push: 1
 
-2019-09-02 11:06:42,560 INFO DEFAULT_GROUP@@dubbo-gateway is changed, add it to push queue.
+2019-09-04 11:30:46,227 INFO retry to push data, key: 192.168.190.197,59628,12402191489090
 
-2019-09-02 11:06:42,560 INFO serviceName: DEFAULT_GROUP@@dubbo-gateway changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,8713592055872
-
-2019-09-02 11:06:42,560 INFO send udp packet: 192.168.190.197,52378,8713592055872
-
-2019-09-02 11:06:42,872 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo is changed, add it to push queue.
-
-2019-09-02 11:06:42,872 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,8713904076729
-
-2019-09-02 11:06:42,872 INFO send udp packet: 192.168.190.197,52378,8713904076729
-
-2019-09-02 11:06:42,872 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:58423, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,58423,8713904076729
-
-2019-09-02 11:06:42,872 INFO send udp packet: 192.168.190.197,58423,8713904076729
-
-2019-09-02 11:06:42,876 INFO DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo is changed, add it to push queue.
-
-2019-09-02 11:06:42,876 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,8713908011912
-
-2019-09-02 11:06:42,876 INFO send udp packet: 192.168.190.197,52378,8713908011912
-
-2019-09-02 11:06:42,876 INFO serviceName: DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo changed, schedule push for: 192.168.190.197:58423, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,58423,8713908011912
-
-2019-09-02 11:06:42,876 INFO send udp packet: 192.168.190.197,58423,8713908011912
-
-2019-09-02 11:06:42,979 INFO DEFAULT_GROUP@@dubbo-service is changed, add it to push queue.
-
-2019-09-02 11:06:42,979 INFO serviceName: DEFAULT_GROUP@@dubbo-service changed, schedule push for: 192.168.190.197:52378, agent: Nacos-Java-Client:v1.1.1, key: 192.168.190.197,52378,8714011043876
-
-2019-09-02 11:06:42,979 INFO send udp packet: 192.168.190.197,52378,8714011043876
-
-2019-09-02 11:06:52,328 INFO retry to push data, key: 192.168.190.197,52378,8713358165413
-
-2019-09-02 11:06:52,328 INFO send udp packet: 192.168.190.197,52378,8713358165413
-
-2019-09-02 11:06:52,332 INFO retry to push data, key: 192.168.190.197,52378,8713363021162
-
-2019-09-02 11:06:52,332 INFO send udp packet: 192.168.190.197,52378,8713363021162
-
-2019-09-02 11:06:52,362 INFO retry to push data, key: 192.168.190.197,52378,8713392980738
-
-2019-09-02 11:06:52,362 INFO send udp packet: 192.168.190.197,52378,8713392980738
-
-2019-09-02 11:06:52,560 INFO retry to push data, key: 192.168.190.197,52378,8713592055872
-
-2019-09-02 11:06:52,560 INFO send udp packet: 192.168.190.197,52378,8713592055872
-
-2019-09-02 11:06:52,874 INFO retry to push data, key: 192.168.190.197,52378,8713904076729
-
-2019-09-02 11:06:52,874 INFO send udp packet: 192.168.190.197,52378,8713904076729
-
-2019-09-02 11:06:52,874 INFO retry to push data, key: 192.168.190.197,58423,8713904076729
-
-2019-09-02 11:06:52,874 INFO send udp packet: 192.168.190.197,58423,8713904076729
-
-2019-09-02 11:06:52,876 INFO retry to push data, key: 192.168.190.197,52378,8713908011912
-
-2019-09-02 11:06:52,876 INFO send udp packet: 192.168.190.197,52378,8713908011912
-
-2019-09-02 11:06:52,877 INFO retry to push data, key: 192.168.190.197,58423,8713908011912
-
-2019-09-02 11:06:52,877 INFO send udp packet: 192.168.190.197,58423,8713908011912
-
-2019-09-02 11:06:52,979 INFO retry to push data, key: 192.168.190.197,52378,8714011043876
-
-2019-09-02 11:06:52,979 INFO send udp packet: 192.168.190.197,52378,8714011043876
-
-2019-09-02 11:07:02,333 INFO retry to push data, key: 192.168.190.197,52378,8713358165413
-
-2019-09-02 11:07:02,333 WARN max re-push times reached, retry times 2, key: 192.168.190.197,52378,8713358165413
-
-2019-09-02 11:07:02,334 INFO retry to push data, key: 192.168.190.197,52378,8713363021162
-
-2019-09-02 11:07:02,334 WARN max re-push times reached, retry times 2, key: 192.168.190.197,52378,8713363021162
-
-2019-09-02 11:07:02,363 INFO retry to push data, key: 192.168.190.197,52378,8713392980738
-
-2019-09-02 11:07:02,363 WARN max re-push times reached, retry times 2, key: 192.168.190.197,52378,8713392980738
-
-2019-09-02 11:07:02,561 INFO retry to push data, key: 192.168.190.197,52378,8713592055872
-
-2019-09-02 11:07:02,561 WARN max re-push times reached, retry times 2, key: 192.168.190.197,52378,8713592055872
-
-2019-09-02 11:07:02,878 INFO retry to push data, key: 192.168.190.197,52378,8713904076729
-
-2019-09-02 11:07:02,878 WARN max re-push times reached, retry times 2, key: 192.168.190.197,52378,8713904076729
-
-2019-09-02 11:07:02,878 INFO retry to push data, key: 192.168.190.197,58423,8713904076729
-
-2019-09-02 11:07:02,878 WARN max re-push times reached, retry times 2, key: 192.168.190.197,58423,8713904076729
-
-2019-09-02 11:07:02,878 INFO retry to push data, key: 192.168.190.197,52378,8713908011912
-
-2019-09-02 11:07:02,878 WARN max re-push times reached, retry times 2, key: 192.168.190.197,52378,8713908011912
-
-2019-09-02 11:07:02,878 INFO retry to push data, key: 192.168.190.197,58423,8713908011912
-
-2019-09-02 11:07:02,878 WARN max re-push times reached, retry times 2, key: 192.168.190.197,58423,8713908011912
-
-2019-09-02 11:07:02,980 INFO retry to push data, key: 192.168.190.197,52378,8714011043876
-
-2019-09-02 11:07:02,980 WARN max re-push times reached, retry times 2, key: 192.168.190.197,52378,8714011043876
+2019-09-04 11:30:46,227 WARN max re-push times reached, retry times 2, key: 192.168.190.197,59628,12402191489090
 

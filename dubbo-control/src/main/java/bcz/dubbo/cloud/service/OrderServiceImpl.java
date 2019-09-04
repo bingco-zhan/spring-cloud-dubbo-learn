@@ -20,7 +20,7 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private OrderMapper orderMapper;
 
-    @Reference(version = "1.0.0", group = "dubbo", check = false)
+    @Reference(version = "1.0.0", group = "dubbo", check = false, filter = "sentinel.dubbo.consumer.filter")
     private StoreService storeService;
 
     @Override
