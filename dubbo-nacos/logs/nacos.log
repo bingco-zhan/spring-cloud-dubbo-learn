@@ -114,3 +114,15 @@
 
 2019-09-20 11:31:56,543 WARN clearConfigHistory start
 
+2019-09-20 11:41:56,308 INFO [capacityManagement] start correct usage
+
+2019-09-20 11:41:56,309 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-20 11:41:56,509 WARN clearConfigHistory start
+
+2019-09-20 11:51:56,305 INFO [capacityManagement] start correct usage
+
+2019-09-20 11:51:56,306 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-20 11:51:56,507 WARN clearConfigHistory start
+
