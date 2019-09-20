@@ -2,20 +2,33 @@ server:
   port: 10802
 spring:
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.16.178:3306/cloud-learn?useUnicode=true&characterEncoding=UTF-8
-    username: root
-    password: root
+    master:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://192.168.16.178:3306/cloud-learn?useUnicode=true&characterEncoding=UTF-8
+      filters: stat,wall
+      username: root
+      password: root
+    slave1:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://192.168.16.178:3306/cloud-learn?useUnicode=true&characterEncoding=UTF-8
+      filters: stat,wall
+      username: root
+      password: root
+    slave2:
+      type: com.alibaba.druid.pool.DruidDataSource
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://192.168.16.178:3306/cloud-learn?useUnicode=true&characterEncoding=UTF-8
+      filters: stat,wall
+      username: root
+      password: root
   main:
     allow-bean-definition-overriding: true
   cloud:
     nacos:
       discovery:
         server-addr: ${spring.cloud.nacos.config.server-addr}
-    alibaba:
-      seata:
-        tx-service-group: ${spring.application.name}-fescar-service-group
 dubbo:
   application:
     name: ${spring.application.name}

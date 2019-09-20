@@ -33,8 +33,7 @@ public class StoreServiceImpl implements StoreService {
         // 异常后上游是否回滚成功
 //        int a = 10 / 0;
         Example example = new Example(Store.class);
-        Example.Criteria criteria = example.createCriteria();
-        criteria.andEqualTo("name", goodsName);
+        example.and().andEqualTo("name", goodsName);
         Store store = storeMapper.selectOneByExample(example);
         if (store == null) {
             return "该商品尚未入库";
