@@ -25,11 +25,11 @@ public class StoreServiceImpl implements StoreService {
         LOGGER.info("Store Service ... xid: " + RootContext.getXID());
 
         // 上游超时熔断后是否扣除数量
-        try {
-            Thread.sleep(30000);
-        } catch (InterruptedException exc1) {
-            exc1.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(30000);
+//        } catch (InterruptedException exc1) {
+//            exc1.printStackTrace();
+//        }
         // 异常后上游是否回滚成功
 //        int a = 10 / 0;
         Example example = new Example(Store.class);

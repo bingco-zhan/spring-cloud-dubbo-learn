@@ -1,50 +1,96 @@
-2019-09-04 10:57:10,408 INFO initializing Raft sub-system
+2019-09-05 11:21:06,537 INFO initializing Raft sub-system
 
-2019-09-04 10:57:10,409 INFO raft notifier started
+2019-09-05 11:21:06,540 INFO finish loading all datums, size: 0 cost 1 ms.
 
-2019-09-04 10:57:10,409 INFO finish loading all datums, size: 0 cost 1 ms.
+2019-09-05 11:21:06,555 INFO cache loaded, datum count: 0, current term: 0
 
-2019-09-04 10:57:10,424 INFO cache loaded, datum count: 0, current term: 0
+2019-09-05 11:21:06,556 INFO finish to load data from disk, cost: 17 ms.
 
-2019-09-04 10:57:10,424 INFO finish to load data from disk, cost: 16 ms.
+2019-09-05 11:21:06,398 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
 
-2019-09-04 10:57:10,271 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+2019-09-05 11:21:06,559 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
 
-2019-09-04 10:57:10,429 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+2019-09-05 11:21:06,560 INFO raft notifier started
 
-2019-09-04 10:57:10,433 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+2019-09-05 11:21:06,561 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
 
-2019-09-04 10:57:10,492 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+2019-09-05 11:21:06,625 INFO add listener: com.alibaba.nacos.naming.domains.meta.
 
-2019-09-04 10:57:12,719 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+2019-09-05 11:21:09,995 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
 
-2019-09-04 10:57:15,268 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+2019-09-05 11:21:15,223 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-gateway
 
-2019-09-04 10:57:15,268 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+2019-09-05 11:21:16,389 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
 
-2019-09-04 10:57:15,268 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+2019-09-05 11:21:16,389 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
 
-2019-09-04 10:57:30,269 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+2019-09-05 11:21:16,389 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
 
-2019-09-04 11:02:11,687 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-gateway
+2019-09-05 11:21:41,392 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
 
-2019-09-04 11:02:23,164 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo
+2019-09-05 11:21:43,082 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo
 
-2019-09-04 11:02:23,227 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
+2019-09-05 11:21:43,196 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
 
-2019-09-04 11:02:23,228 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
+2019-09-05 11:21:43,310 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-service
 
-2019-09-04 11:02:23,281 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-service
+2019-09-05 11:22:42,978 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo
 
-2019-09-04 11:02:23,281 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-service
+2019-09-05 11:22:43,668 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
 
-2019-09-04 11:02:37,066 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo
+2019-09-05 11:22:43,668 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
 
-2019-09-04 11:02:37,591 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
+2019-09-05 11:22:47,032 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-control
 
-2019-09-04 11:02:37,591 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
+2019-09-05 11:22:47,032 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-control
 
-2019-09-04 11:02:40,024 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-control
+2019-09-05 11:36:28,323 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
 
-2019-09-04 11:02:40,024 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-control
+2019-09-19 15:01:53,946 INFO initializing Raft sub-system
+
+2019-09-19 15:01:53,947 INFO finish loading all datums, size: 0 cost 1 ms.
+
+2019-09-19 15:01:53,949 INFO raft notifier started
+
+2019-09-19 15:01:53,954 INFO cache loaded, datum count: 0, current term: 0
+
+2019-09-19 15:01:53,954 INFO finish to load data from disk, cost: 8 ms.
+
+2019-09-19 15:01:53,959 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2019-09-19 15:01:53,804 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2019-09-19 15:01:53,966 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2019-09-19 15:01:54,023 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2019-09-19 15:01:56,293 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2019-09-19 15:02:03,798 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2019-09-19 15:02:03,798 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2019-09-19 15:02:03,798 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2019-09-19 15:02:04,470 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"192.168.190.197:8848","leaderDueMs":19628,"state":"FOLLOWER","term":0,"voteFor":""}, term: 0
+
+2019-09-19 15:02:28,802 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"192.168.190.197","key":"192.168.190.197:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2019-09-19 15:03:59,278 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo
+
+2019-09-19 15:03:59,411 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@providers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
+
+2019-09-19 15:03:59,453 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-service
+
+2019-09-19 15:03:59,453 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-service
+
+2019-09-19 15:43:44,964 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-gateway
+
+2019-09-19 16:34:18,793 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.IService:1.0.0:dubbo
+
+2019-09-19 16:34:19,397 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
+
+2019-09-19 16:34:19,397 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@consumers:bcz.dubbo.cloud.api.StoreService:1.0.0:dubbo
+
+2019-09-19 16:34:22,585 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@dubbo-control
 

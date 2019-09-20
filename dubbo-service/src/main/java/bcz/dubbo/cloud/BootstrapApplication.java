@@ -18,16 +18,4 @@ public class BootstrapApplication {
     public static void main(String[] args) {
         SpringApplication.run(BootstrapApplication.class, args);
     }
-
-    @Bean
-    @ConfigurationProperties(prefix = "spring.datasource")
-    public DruidDataSource druidDataSource() {
-        return new DruidDataSource();
-    }
-
-    @Primary
-    @Bean("dataSource")
-    public DataSourceProxy dataSource(DruidDataSource dataSource) {
-        return new DataSourceProxy(dataSource);
-    }
 }

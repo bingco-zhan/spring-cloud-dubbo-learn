@@ -1,6 +1,12 @@
-2019-09-04 10:57:12,944 INFO [dump-all-ok] dubbo-control-dev.yaml+DEFAULT_GROUP, 1567389222414, length=696, md5=e0193375c3670f24dacacc780280f72f
+2019-09-05 11:21:10,593 INFO [dump-all-ok] dubbo-control-dev.yaml+DEFAULT_GROUP, 1567389222414, length=696, md5=e0193375c3670f24dacacc780280f72f
 
-2019-09-04 10:57:12,946 INFO [dump-all-ok] dubbo-service-dev.yaml+DEFAULT_GROUP, 1567389241555, length=709, md5=ad503e6ca8d8c1c5e2658ba20b507dc0
+2019-09-05 11:21:10,594 INFO [dump-all-ok] dubbo-service-dev.yaml+DEFAULT_GROUP, 1567389241555, length=709, md5=ad503e6ca8d8c1c5e2658ba20b507dc0
 
-2019-09-04 10:57:12,946 INFO [dump-all-ok] dubbo-gateway-dev.yaml+DEFAULT_GROUP, 1567047274334, length=571, md5=fed99b508ef29af54b6f788770ee427c
+2019-09-05 11:21:10,595 INFO [dump-all-ok] dubbo-gateway-dev.yaml+DEFAULT_GROUP, 1567047274334, length=571, md5=fed99b508ef29af54b6f788770ee427c
+
+2019-09-19 15:01:56,501 INFO [dump-all-ok] dubbo-control-dev.yaml+DEFAULT_GROUP, 1567389222414, length=696, md5=e0193375c3670f24dacacc780280f72f
+
+2019-09-19 15:01:56,501 INFO [dump-all-ok] dubbo-service-dev.yaml+DEFAULT_GROUP, 1567389241555, length=709, md5=ad503e6ca8d8c1c5e2658ba20b507dc0
+
+2019-09-19 15:01:56,502 INFO [dump-all-ok] dubbo-gateway-dev.yaml+DEFAULT_GROUP, 1567047274334, length=571, md5=fed99b508ef29af54b6f788770ee427c
 
